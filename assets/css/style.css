@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+}
+
+body {
+    background-image: url("../img/libros.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contenedor-principal {
+    width: 80vh;
+    max-width: 600px;
+    min-height: 500px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    border: 5px solid black;
+}
+
+.contenedor-interno {
+    padding: 5px;
+    margin: 10px 20px;
+    font-size: 2em;
+    font-weight: bold;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Courgette", cursive;
+    font-size: 35px;
+    padding-top: 4rem;
+}
+
+#cita {
+    font-size: 32px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#autor {
+    width: 100%;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    font-family: "Courgette", cursive;
+}
+
+#btnCambiarCita {
+    cursor: pointer;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    background-color: rgb(12, 33, 90);
+    color: beige;
+    border-radius: 20px;
+    border: 1px solid rgb(12, 33, 90);
+    font-family: "Lato", sans-serif;
+}
